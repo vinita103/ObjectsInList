@@ -6,6 +6,8 @@ public class TvShow {
 
    private String genre;
 
+   // Creating first constructor with 3 parameters
+
    public TvShow(String showName, int numberOfEpisodes, String genre) {
       this.showName = showName;
       this.numberOfEpisodes = numberOfEpisodes;
@@ -13,6 +15,51 @@ public class TvShow {
 
    }
 
+
+   // Overloading constructors 
+
+    // Creating second constructor with only string  parameters
+
+   public TvShow(String showName) {
+      this.showName = showName;
+     
+      
+   }
+ // Creating third constructor with only int parameters
+
+   public TvShow(int numberOfEpisodes) {
+      
+      this.numberOfEpisodes = numberOfEpisodes;
+     
+
+   }
+ 
+    // Creating fourth constructor with String and int parameters
+
+   public TvShow(String showName, int numberOfEpisodes) {
+      this.showName = showName;
+      this.numberOfEpisodes = numberOfEpisodes;
+      
+
+   }
+
+    // Creating fifth constructor with int and String parameters
+
+   public TvShow(int numberOfEpisodes, String genre) {
+            this.numberOfEpisodes = numberOfEpisodes;
+      this.genre = genre;
+
+   }
+
+   // Creating sixth constructor with 2 String parameters
+
+   public TvShow(String showName,  String genre) {
+      this.showName = showName;
+       this.genre = genre;
+
+   }
+
+  
    // method to get TV Show name
 
    public String getShowName() {

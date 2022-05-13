@@ -5,6 +5,19 @@ public class AnimalMain {
 
     public static void main(String[] args) {
 
+
+        // creating instances of Animal Class with different constructors
+
+        Animal dog = new Animal ("Tommy");
+        System.out.println(dog);
+
+        Animal cat = new Animal (false);
+        System.out.println(cat);
+
+        Animal dog1 = new Animal ("Sam", true);
+        System.out.println(dog1);
+
+
         // create Scanner class
 
         Scanner user = new Scanner(System.in);
@@ -13,6 +26,8 @@ public class AnimalMain {
 
         ArrayList<Animal> animals = new ArrayList<>();
 
+        
+       
         System.out.println("Animal Menu");
         System.out.println("Entering nothing will stop the loop");
 

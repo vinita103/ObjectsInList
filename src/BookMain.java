@@ -5,6 +5,7 @@ public class BookMain {
 
     public static void main(String[] args) {
 
+       
         Scanner user = new Scanner (System.in);
 
         // creating ArrayList
@@ -19,11 +20,30 @@ public class BookMain {
 
         Book book3 = new Book ("Autobiography of a Yogi", 566, 1946);
 
+
         books.add(book1);
         books.add(book2);
         books.add(book3);
 
-  
+         // creating instances of Book Class with different constructors- for overloading practice
+
+         Book book4 = new Book ("Man's Search for Meaning" );
+
+         System.out.println(book4);
+
+         Book book5 = new Book (304);
+
+         System.out.println(book5);
+
+        Book book6 = new Book ("Autobiography of a Yogi", 566);
+
+        System.out.println(book6);
+
+        Book book7 = new Book (304, 1969 );
+
+        System.out.println(book7);    
+
+         
         // creating statement for user input
 
 

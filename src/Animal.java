@@ -11,6 +11,24 @@ public class Animal {
 
     // creating constructor with parameters
 
+     // Overloading constructors
+
+    // first constructor, one parameter
+      
+    public Animal(String name) {
+        this.name = name;
+    }
+    
+
+    // second constructor, one parameters
+
+    public Animal(boolean ifItIsADog) {
+        this.ifItIsADog = ifItIsADog;
+    }
+
+    // third Constructor, two parameters
+
+
     public Animal(String name, boolean ifItIsADog) {
 
         this.name = name;
@@ -18,14 +36,18 @@ public class Animal {
 
     }
 
+    
     // creating getter method to get name
 
+    
     public String getName() {
 
         return name;
 
     }
     // creating getter method to get if it is a dog
+
+    
 
     public boolean getifItIsADog() {
 
